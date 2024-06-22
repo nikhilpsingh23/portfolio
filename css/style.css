@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "roboto", sans-serif;
+    line-height: 1.7;
+}
+.section-padding{
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+a{
+    text-decoration: none;
+}
+
+/* navbar  38bcff*/
+.navbar{
+    transition: all 0.4s ease-out;
+}
+.navbar-brand h4{
+    color: #38bcff;
+    font-weight: 700;
+}
+.navbar .navbar-nav .nav-link{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar .navbar-nav .nav-link.active{
+    color: var(--bs-info);
+}
+
+/* hero*/
+.text-c{
+    color: #38bcff;
+}
+.btn{
+    background-color:#090c0d;
+    color:#38bcff;
+}
+.btn:hover{
+    background-color: #090c0d;
+    color: white;
+}
+.bt{
+    justify-content: center;
+    align-items: center;
+}
+
+/* */
+.icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3e4344;
+    border-radius: 100%;
+    color:#38bcff;
+    font-size: 30px;
+    flex: none;
+}
+
+/* tools */
+
+.tool-icon{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e4344;
+    color: #38bcff;
+    border-radius: 100%;
+    font-size: 30px;
+    display: flex;
+    margin-left: 8px;
+}
+
+.tool-p{
+    margin-left: 75px;
+}
+
+.flex{
+    display: flex;
+}
+
+.tool-btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.card:hover{
+    border-color: #38bcff;
+}
+
+.font-bold{
+    font-weight: 600;
+    color: rgb(12, 1, 1);
+}
+.badge{
+    background-color: #090c0d;
+    color: #38bcff;
+    width: 50%;
+}
+.img{
+    height: 280px;
+}
+.resume{
+    font-weight: 600;
+}
+.form-control{
+    border: #090c0d solid 1px;
+}
+.send{
+    width: 50%;
+    
+}
